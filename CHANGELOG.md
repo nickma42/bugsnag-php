@@ -1,6 +1,12 @@
 Changelog
 =========
 
+## 2.7.3 (2016-06-20)
+
+* Improve performance when using cURL
+  [aleemb](https://github.com/aleemb)
+  [#115](https://github.com/bugsnag/bugsnag-php/pull/115)
+
 ## 2.7.2 (2016-06-17)
 
 ### Bug Fixes
