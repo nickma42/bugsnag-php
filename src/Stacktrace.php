@@ -2,6 +2,9 @@
 
 namespace Bugsnag;
 
+use RuntimeException;
+use SplFileObject;
+
 class Stacktrace
 {
     private static $DEFAULT_NUM_LINES = 7;

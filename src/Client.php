@@ -2,6 +2,8 @@
 
 namespace Bugsnag;
 
+use Exception;
+
 class Client
 {
     private $config;
@@ -13,7 +15,7 @@ class Client
      *
      * @param string $apiKey your Bugsnag API key
      *
-     * @throws Exception
+     * @throws \Exception
      */
     public function __construct($apiKey)
     {
@@ -119,7 +121,6 @@ class Client
 
         return $this;
     }
-
 
     /**
      * Set the desired timeout for cURL connection when notifying bugsnag.
